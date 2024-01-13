@@ -1,0 +1,71 @@
+
+body{
+    margin: 0;
+    background-color: black;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.formcontainer{
+    height: 650px;
+    width: 450px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: -1px 0px 13px 7px rgba(166,154,45,1);
+    border: 5px solid  rgb(85, 78, 16);
+}
+
+input{
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    height: 30px;
+
+}
+
+label{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+}
+
+.hesitate{
+   text-align: center;
+   border: 1px solid black;
+   margin-left: 20px;
+   font-size: 30px;
+   border-radius: 10px;
+   height: 50px;
+   width: 92%;
+   background-color: black;
+   color: white;
+   font-style: italic;
+   padding-top: 10px;
+}
+
+#register{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    padding: 15px;
+    width: 92%;
+    height: 50px;
+
+}
+
+input:valid{
+    border-color: green;
+}
+
+input:invalid{
+    border-color: red;
+}
